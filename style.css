@@ -1,0 +1,202 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar{
+        background-color: #3b5998;
+        display: flex;
+        justify-content: space-around;
+        height: 12vh;
+        padding: 10px;
+
+    }
+    .facebook{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+        font-size: 43px;
+        color: #fff;
+    }
+    .login-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .inner-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        
+    }
+    .inner-box input {
+    border-radius: 5px;
+    height: 22px;
+    width: 206px;
+    border: none;
+    padding: 3px;
+    font-family: sans-serif;
+    }
+    .mail {
+    margin-bottom: 14px;
+    color: #ffff;
+    }
+    .passcode {
+    margin-bottom: 11px;
+    margin-top: 28px;
+    color: #fff;
+    }
+   .inner-box p{
+    margin: 2px;
+   }
+   .inner-box p a{
+    color: rgb(203 205 205 / 88%);
+    text-decoration: none;
+   }
+   .inner-box p:hover a{
+    color: #fff;
+   }
+   #loginBtn {
+    margin-top: 22px;
+    width: 55px;
+    height: 23px;
+    padding: 1px;
+    border-radius: 6px;
+    background-color:#417bfc;
+    transition: .4s;
+    color: white;
+    cursor: pointer;
+    }
+    #loginBtn:hover {
+        border: 1px solid white;
+
+    }
+
+    /* now container under nav bar */
+
+    .container-box{
+        background-color: #e7e7e7;
+        background: linear-gradient(to top, #aab0b1,#f7feff);
+        height: 76vh;
+        display: flex;
+    }
+    #networkImg {
+    width: 628px;
+    height: 275px;
+    }
+    .create_box{
+        display: flex;
+        flex-direction: column;  
+        margin-left: 40px;
+    }
+      #create_form{
+        display: flex;
+        flex-direction: column;
+      }   
+      #aside{
+        padding: 0;
+      } 
+
+      .container-box{
+        display: flex;
+        justify-content: center;
+        padding: 33px;
+      }
+      .imagePara {
+    color: #564d8ce8;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    }
+    #create_title{
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 13px;
+    }
+    .free{
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 13px;
+    }
+    .inbox {
+    margin-bottom: 12px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+    ._name {
+    margin-right: 10px;
+    width: 191px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+    .mobi {
+    width: 405px;
+    }
+    .happy{
+        margin-top: 20px;
+    }
+    .popins{
+        font-family: 'Poppins', sans-serif;
+    }
+    .birthday{
+        font-size: 21px;
+        margin-bottom: 4px;
+    }
+    .policy{
+        font-size: 12px;
+        margin-top: 10px;
+        color: #3b5998;
+    }
+    #query{
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #dob {
+    width: 160px;
+    border-radius: 6px;
+    padding: 4px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+    }
+    .gender{
+        margin-top: 10px;
+    }
+    #female
+    {
+        margin-left: 24px;
+        margin-right: 3px;
+    }
+    #male{
+        margin-right: 3px;
+    }
+
+    .button{
+        margin-top: 38px;
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+    }
+    #create_account {
+    width: 213px;
+    height: 37px;
+    font-size: 18px;
+    margin-bottom: 3px;
+    background: linear-gradient(to top, #2d7e13,#6eba3f);
+     color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+    border-color: grey;
+    cursor: pointer;
+    }
+    .celeb {
+    font-size: 13px;
+    color: #0b3182;
+    margin-left: 5px;
+    }
+
